@@ -1,0 +1,26 @@
+{
+  "$id": "1",
+  "Description": "moyenne citadine",
+  "Family": null,
+  "Id": 0,
+  "ImageUri": "img/volkswagen_golf.jpg",
+  "Name": "golf",
+  "References": [
+    {
+      "$id": "2",
+      "Id": 0,
+      "Ref": 95,
+      "Information": "Version LowCost",
+      "Price": 10000.0,
+      "Product": null
+    },
+    {
+      "$id": "3",
+      "Id": 0,
+      "Ref": 100,
+      "Information": "Version Chere",
+      "Price": 20000.0,
+      "Product": null
+    }
+  ]
+}

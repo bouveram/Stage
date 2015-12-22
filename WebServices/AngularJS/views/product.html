@@ -1,0 +1,23 @@
+﻿<div ng-controller="ProductController as c">
+    <br /><br />
+    <div class="phone-images">
+        <img ng-src="{{c.product.ImageUri}}" class="phone">
+    </div>
+    <h1>{{c.product.Name}}</h1>
+    <p>{{c.product.Description}}</p>
+            
+    <br />
+    <div style="overflow-x:auto;">
+        <table>
+            <thead>Versions :</thead>
+            <tr ng-repeat="ref in c.product.References">
+                <td>Reference : {{ref.Ref}}</td>
+                <td>Description : {{ref.Information}}</td>
+                <td>Price : {{ref.Price}}</td>
+            </tr>
+            <tr>
+                <add-reference />
+            </tr>
+        </table>
+    </div>
+</div>

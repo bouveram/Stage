@@ -1,0 +1,1 @@
+{"$id":"1","Id":0,"Name":"C3","References":[{"$id":"2","Id":0,"Ref":45,"Information":"Version LowCost","Price":10000.0,"Product":null},{"$id":"3","Id":0,"Ref":50,"Information":"Version Chere","Price":20000.0,"Product":null}],"ImageUri":"img/Citroen_C3.png","Description":"petite citadine","Family":null}

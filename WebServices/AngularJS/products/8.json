@@ -1,0 +1,1 @@
+{"$id":"1","Id":0,"Name":"Serie 3","References":[{"$id":"2","Id":0,"Ref":75,"Information":"Version LowCost","Price":10000.0,"Product":null},{"$id":"3","Id":0,"Ref":80,"Information":"Version Chere","Price":20000.0,"Product":null}],"ImageUri":"img/bmw-serie-3.jpg","Description":"grosse voiture","Family":null}

@@ -1,0 +1,152 @@
+[
+  {
+    "$id": "1",
+    "Id": 1,
+    "Products": [
+      {
+        "$id": "2",
+        "Id": 1,
+        "Name": "208",
+        "References": [ ],
+        "ImageUri": "img/Peugeot_208.jpg",
+        "Description": "petite citadine",
+        "Family": null
+      },
+      {
+        "$id": "3",
+        "Id": 2,
+        "Name": "308",
+        "References": [ ],
+        "ImageUri": "img/Peugeot_308.jpg",
+        "Description": "petite familiale",
+        "Family": null
+      }
+    ],
+    "Name": "Peugeot"
+  },
+  {
+    "$id": "4",
+    "Id": 2,
+    "Products": [
+      {
+        "$id": "5",
+        "Id": 3,
+        "Name": "Twingo",
+        "References": [ ],
+        "ImageUri": "img/Renault_twingo.jpg",
+        "Description": "petite citadine",
+        "Family": null
+      },
+      {
+        "$id": "6",
+        "Id": 4,
+        "Name": "clio",
+        "References": [ ],
+        "ImageUri": "img/Renault_clio.jpg",
+        "Description": "petite familiale",
+        "Family": null
+      }
+    ],
+    "Name": "Renault"
+  },
+  {
+    "$id": "7",
+    "Id": 3,
+    "Products": [
+      {
+        "$id": "8",
+        "Id": 5,
+        "Name": "C3",
+        "References": [ ],
+        "ImageUri": "img/Citroen_C3.png",
+        "Description": "petite citadine",
+        "Family": null
+      },
+      {
+        "$id": "9",
+        "Id": 6,
+        "Name": "C4",
+        "References": [ ],
+        "ImageUri": "img/Citroen_C4.png",
+        "Description": "LA MEILLEURE",
+        "Family": null
+      }
+    ],
+    "Name": "Citroen"
+  },
+  {
+    "$id": "10",
+    "Id": 4,
+    "Products": [
+      {
+        "$id": "11",
+        "Id": 7,
+        "Name": "Serie 1",
+        "References": [ ],
+        "ImageUri": "img/bmw_serie1.jpg",
+        "Description": "petite citadine",
+        "Family": null
+      },
+      {
+        "$id": "12",
+        "Id": 8,
+        "Name": "Serie 3",
+        "References": [ ],
+        "ImageUri": "img/bmw-serie-3.jpg",
+        "Description": "grosse voiture",
+        "Family": null
+      }
+    ],
+    "Name": "BMW"
+  },
+  {
+    "$id": "13",
+    "Id": 5,
+    "Products": [
+      {
+        "$id": "14",
+        "Id": 9,
+        "Name": "polo",
+        "References": [ ],
+        "ImageUri": "img/volkswagen_polo.jpg",
+        "Description": "petite citadine",
+        "Family": null
+      },
+      {
+        "$id": "15",
+        "Id": 10,
+        "Name": "golf",
+        "References": [ ],
+        "ImageUri": "img/volkswagen_golf.jpg",
+        "Description": "moyenne citadine",
+        "Family": null
+      }
+    ],
+    "Name": "Volkswagen"
+  },
+  {
+    "$id": "16",
+    "Id": 6,
+    "Products": [
+      {
+        "$id": "17",
+        "Id": 11,
+        "Name": "fabia",
+        "References": [ ],
+        "ImageUri": "img/Skoda_fabia.jpg",
+        "Description": "petite citadine",
+        "Family": null
+      },
+      {
+        "$id": "18",
+        "Id": 12,
+        "Name": "rapid",
+        "References": [ ],
+        "ImageUri": "img/skoda-rapid.jpg",
+        "Description": "moyenne citadine",
+        "Family": null
+      }
+    ],
+    "Name": "Skoda"
+  }
+]

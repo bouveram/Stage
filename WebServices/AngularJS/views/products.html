@@ -1,0 +1,24 @@
+<div class="container-fluid" ng-controller="FamilyListController as fL">
+    <br /><br/>
+    <div class="row">
+        <div class="col-md-2">
+            Search a Product: <input ng-model="fL.query">
+            <br />
+            Choose a family :
+            <select ng-model="fL.familySelection">
+                <option value="">All</option>
+                <option ng-repeat="f in fL.Families" value="{{f.Name}}">{{f.Name}}</option>
+            </select>
+        </div>
+        <div class="col-md-10">
+            <ul class="phones" ng-repeat="f in fL.Families | filter: fL.familySelection">
+                <li ng-repeat="p in f.Products| filter: { Name: fL.query } " class="phone-listing thumbnail">
+                    <a href="#/product/{{p.Id}}" class="thumb"><img ng-src="{{p.ImageUri}}" /></a>
+                    <p><a href="#/product/{{p.Id}}">{{p.Name}}</a></p>
+                    <p>{{p.Description}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
